@@ -1,0 +1,8 @@
+{
+  "listing": "/guides/analyzer_guide.html",
+  "items": [
+    "/guides/analyzer_guide_pages/MalariaSummaryReport_analyzer.html",
+    "/guides/analyzer_guide_pages/event_analyzer.html",
+    "/guides/analyzer_guide_pages/spatial_analyzer.html"
+  ]
+}

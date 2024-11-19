@@ -1,0 +1,8 @@
+{
+  "listing": "/guides/simulation_guide.html",
+  "items": [
+    "/guides/simulation_guide_pages/simulation_components.html",
+    "/guides/simulation_guide_pages/adding_malaria.html",
+    "/guides/simulation_guide_pages/update_config.html"
+  ]
+}
