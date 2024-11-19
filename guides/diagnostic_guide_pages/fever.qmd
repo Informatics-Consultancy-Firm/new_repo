@@ -1,9 +1,0 @@
----
-title: "Fever"
-weight: 4
-format: 
-  html:
-    toc: true
-    toc-depth: 5
-    page-layout: full
----

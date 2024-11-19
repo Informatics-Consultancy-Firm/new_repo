@@ -1,9 +1,0 @@
----
-title: "HRP2-Based Rapid Test"
-weight: 2
-format: 
-  html:
-    toc: true
-    toc-depth: 5
-    page-layout: full
----

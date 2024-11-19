@@ -10,7 +10,7 @@ execute:
   enabled: false 
 ---
 
-# Create a Demographics Files 
+
 
 The demographics file is a required input file for EMOD that specifies characteristics of the population in a simulation. This includes aspects like the population size, birth rates, non-malaria mortality rates, age structure, initial prevalence, and more. Full documentation on the [demographics file](https://docs.idmod.org/projects/emod-malaria/en/latest/software-demographics.html) and its [parameters/structure](https://docs.idmod.org/projects/emod-malaria/en/latest/parameter-demographics.html) are available in the malaria model documentation.
 
