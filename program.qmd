@@ -6,4 +6,4 @@ listing:
   fields: [title, description]
   sort: weight
   grid-columns: 1
----
+---   
