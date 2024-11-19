@@ -118,10 +118,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#step-by-step" id="toc-step-by-step" class="nav-link active" data-scroll-target="#step-by-step">Step by step</a>
+  <li><a href="#code" id="toc-code" class="nav-link active" data-scroll-target="#code">Code</a>
   <ul>
-  <li><a href="#full-code" id="toc-full-code" class="nav-link" data-scroll-target="#full-code">Full code</a></li>
-  <li><a href="#code-output" id="toc-code-output" class="nav-link" data-scroll-target="#sample-image">Code output</a></li>
+  <li><a href="#output" id="toc-full-code" class="nav-link" data-scroll-target="#output">Output</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -157,17 +156,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div id="be427f5c" class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im"></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">"""</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">Step 1: Install necessary libraries</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">       Before starting, ensure you have the required R packages installed.</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">       This can be done using the following code:</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span> 
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">Before starting, ensure you have the required R packages installed.</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">This can be done using the following code:</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">"""</span></span> 
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="im">install.packages("sf")</span>
-
-<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> demog</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf"></span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Basically, the birth rate needs to be set differently to account for the difference between using <code>FIXED_BIRTH_RATE</code> and <code>POPULATION_DEP_RATE</code>. Note that in this example, the mortality rate is also set to the birth rate to ensure that the population is stable and at equilibrium. Finally, we use the <code>SetEquilibriumAgeDistFromBirthAndMortRates</code> to make sure the age distribution is already at equilibrium given the birth and death rates right from the beginning. You might notice that this means the age distribution in the model is not the same as the “real world”. The actual age distribution in the model can only be achieved if you supply the birth and death (by age) rates over the years of simulations. With constant birth rate and equilibrium vital dynamics, the age distribution will move into a fixed shape even if you start off with a different age distribution.</p>
 
+
+  
 
 </section>
 </section>
